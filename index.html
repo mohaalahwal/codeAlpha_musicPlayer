@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <!-- google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- styling -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music">
+        <div class="header">
+          <i class="material-icons"> expand_more </i>
+          <span>Now Playing</span>
+          <i class="material-icons"> more_horiz </i>
+        </div>
+        <div class="thumpnail">
+          <img src="./images/3.jpg" alt="" />
+        </div>
+        <div class="heading">
+          <h3 class="song__name">Song 1</h3>
+          <h6 class="Artist">Artist 1</h6>
+        </div>
+        <div class="progress">
+          <input type="range" class="range" />
+        </div>
+        <div class="audio">
+          <audio src="" controls></audio>
+        </div>
+        <div class="functionality">
+          <div class="mode">
+            <i class="material-icons shuffle"> shuffle </i>
+          </div>
+          <div class="player">
+            <i class="material-icons rewind"> fast_rewind </i>
+            <i class="material-icons play"> play_circle_filled </i>
+            <i class="material-icons forward"> fast_forward </i>
+          </div>
+          <div class="mode">
+            <i class="material-icons queue"> queue_music </i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer type="module" src="script.js"></script>
+  </body>
+</html>
